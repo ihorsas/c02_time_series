@@ -54,11 +54,11 @@ def fit_arima(data, p, d, q):
 
 print("Co2 Data:")
 
-# print("Fitting arima for p=10, d=2, q=1")
-# # model 1 will be the best based on experiments
+print("Fitting arima for p=10, d=2, q=1")
+# model 1 will be the best based on experiments
 rmse_1, model_1 = fit_arima(co2_data, 10, 2, 1)
 #
-# print("Fitting arima for p=1, d=1, q=1")
+print("Fitting arima for p=1, d=1, q=1")
 rmse_2, model_2 = fit_arima(co2_data, 1, 2, 10)
 
 print("Fitting arima for p=28, d=1, q=10")
