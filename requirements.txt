@@ -1,0 +1,5 @@
+--index-url https://artifactory.tools.roku.com/artifactory/api/pypi/pypi-virtual/simple/
+statsmodels===0.13.5
+matplotlib===3.6.3
+scikit-learn===1.2.1
+numpy===1.24.1
